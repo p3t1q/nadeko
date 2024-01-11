@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  nadeko:
+    repository: p3t1q/nadeko
+    target: nadeko
+    image: registry.gitlab.com/kwoth/nadekobot:latest

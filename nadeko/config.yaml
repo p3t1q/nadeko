@@ -1,0 +1,19 @@
+name: Nadeko
+version: 5.0.0
+slug: Nadeko
+description: Nadeko Discord bot as a HA plugin
+url: https://github.com/p3t1q/nadeko
+codenotary: p3t1q@gmail.com
+init: false
+hassio_api: true
+hassio_role: homeassistant
+arch:
+- aarch64
+- amd64
+- armv7
+options:
+  external_hostname: ''
+  additional_hosts: []
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+image: registry.gitlab.com/kwoth/nadekobot:latest
